@@ -71,6 +71,7 @@
     <Reference Include="NorthwoodLib, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ExMod.Exiled.9.12.5\lib\net48\NorthwoodLib.dll</HintPath>
     </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\Desktop\RespawnTimers Plugin\UnityEngine.dll</HintPath>
@@ -89,8 +90,10 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CassieCompat.cs" />
     <Compile Include="Commands\Badge.cs" />
     <Compile Include="Commands\Color.cs" />
+    <Compile Include="Commands\Glow.cs" />
     <Compile Include="Commands\Nick.cs" />
     <Compile Include="Commands\Reset.cs" />
     <Compile Include="Commands\Rgb.cs" />
@@ -98,6 +101,7 @@
     <Compile Include="Commands\Size.cs" />
     <Compile Include="Commands\Wide.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="GlowFeature.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
