@@ -17,6 +17,8 @@ namespace Patreon_Perks
         // ===== Existing Perk Tracking =====
         public List<string> ScreamUses = new List<string>();
         public List<string> RgbUses = new List<string>();
+        public List<string> FakeCIWaveUses = new List<string>();
+        public List<string> FakeNTFWaveUses = new List<string>();
         public CoroutineHandle RgbCoroutine;
 
         // ===== NEW: Glow Tracking =====
@@ -60,6 +62,8 @@ namespace Patreon_Perks
 
             // NEW: reset glow usage each round
             try { GlowUses.Clear(); } catch { }
+            try { FakeCIWaveUses.Clear(); } catch { }
+            try { FakeNTFWaveUses.Clear(); } catch { }
         }
     }
 }

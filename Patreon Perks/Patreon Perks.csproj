@@ -93,6 +93,8 @@
     <Compile Include="CassieCompat.cs" />
     <Compile Include="Commands\Badge.cs" />
     <Compile Include="Commands\Color.cs" />
+    <Compile Include="Commands\FakeCIWave.cs" />
+    <Compile Include="Commands\FakeNTFWave.cs" />
     <Compile Include="Commands\Glow.cs" />
     <Compile Include="Commands\Nick.cs" />
     <Compile Include="Commands\Reset.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="Commands\Size.cs" />
     <Compile Include="Commands\Wide.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="FakeWaveFeature.cs" />
     <Compile Include="GlowFeature.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
